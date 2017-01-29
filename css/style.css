@@ -188,6 +188,16 @@ small {
 #Delight { background: #40A4D8; }
 #Analyse { background: #33BEB7; }
 
+.Research { color: #B3C126; }
+.Plan { color: #FECC2F; }
+.Explore { color: #F8A227; }
+.Communicate { color: #F46320; }
+.Create { color: #DB3937; }
+.Feedbacks { color: #EE6579; }
+.Finalise { color: #A164D9; }
+.Delight { color: #40A4D8; }
+.Analyse { color: #33BEB7; }
+
 .cards {
 	border: 1px solid #f1f1f1;
 	padding:20px;
@@ -240,6 +250,7 @@ small {
 	font-size: 1.4em;
 	margin-bottom: 0.5em;
 	cursor: pointer;
+	font-weight: 700;
 }
 
 .card-content p {
