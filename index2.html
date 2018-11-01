@@ -1,0 +1,983 @@
+<!doctype html>
+<html class="no-js" lang="fr" xmlns:og="http://ogp.me/ns#">
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Compétences en UX</title>
+    <link rel="shortcut icon" href="favicon.ico?v=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <meta property="og:title" content="Compétence en UX">
+    <meta property="og:type" content="util">
+    <meta property="og:url" content="https://fkgrim.github.io/uxcheklist-fr/index2.html">
+    <meta property="og:image" content="https://fkgrim.github.io/uxcheklist-fr/img/checklist_UX.png">
+    <meta property="og:description" content="Modélisation des compétences en UX et modèle en T ">
+    <meta property="og:locale" content="fr_FR">
+
+    <link rel="stylesheet" href="css/jquery-labelauty.css"/>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans|Roboto" rel="stylesheet">
+    <!-- Magnific Popup core CSS file -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/style.css"/>
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <!-- <script src="js/vendor/modernizr.js"></script> -->
+
+    <!-- GA plugin -->
+
+</head>
+<body>
+
+
+<div id="header" class="">
+    <div id="title">
+        <h1>Compétences en UX</h1>
+    </div>
+    <div id="gdrivebox" class="hide-for-print">
+			<span id="signin-do">
+				<button id="signin"><i class="fa fa-sign-in"></i>Sign in with Google</button> to sync across devices.
+				<a href="#signin-info" class="open-popup-link">
+				<i class="fa fa-info-circle fa-lg"></i></a>
+			</span>
+        <span id="signin-failed">Sign in failed! :(</span>
+        <span id="signin-success">You're signed in with Google.</span>
+
+        <div id="signin-info" class="white-popup mfp-hide">
+            <p>We use Google Drive to create and save a file on your account so you will be able to open the same checklist on all your connected devices.
+            </p>
+            <p>
+                And guess what?! You can share it! </br>
+                Well, yeah is not a big deal, but it come for free, yes like everything else, what I mean is that we didn't had to do anything for that, right? So basically you connect with Google, we create the file, you go to your Google Drive folder, try to find the new file,
+                I have no idea where it is or what the name will be, the <a href="https://twitter.com/alefranz" target="_blank" title="@alefranz">guy</a> who did this didn't tell us, once you've found the file share it with your friends. Done! </br>
+                When your friends connect their Google account they should see the same checklist status. </br>
+                Magic isn't it? No! That's technology fool!
+            </p>
+            <p>Also, we will not use any of your data, we didn't have any kind of database or save something somewhere in any way, the file we create is yours and yours only and is the only thing we are able to do right now.
+            </p>
+            <p>
+                Oh, and just want to remind you that if you still not believe it, everything is open source and you can check the github repo <a href="https://github.com/uxchecklist/uxchecklist.github.io" target="_blank" title="github repo">here</a> (feel free to fork it and do
+                awesome things, or help us make it better).
+            </p>
+        </div>
+    </div>
+    <div id="sharebox" class="hide-for-print">
+        <ul>
+            <li>
+                <!-- facebook plugin -->
+                <div class="fb-like" data-href="http://uxchecklist.github.io/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+            </li>
+            <li>
+                <!-- linkedin plugin -->
+                <script src="//platform.linkedin.com/in.js" type="text/javascript">
+                    lang: fr_FR
+                </script>
+                <script type="IN/Share" data-counter="right"></script>
+            </li>
+            <li>
+                <!-- twitter plugin -->
+                <a href="https://twitter.com/share" class="twitter-share-button" data-text="Checklist de projet UX : Le Process de Design UX de A à Z" data-via="sovesove" data-hashtags="ux,uxchecklist">Tweet</a>
+                <script>!function (d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                    if (!d.getElementById(id)) {
+                        js = d.createElement(s);
+                        js.id = id;
+                        js.src = p + '://platform.twitter.com/widgets.js';
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }
+                }(document, 'script', 'twitter-wjs');</script>
+            </li>
+        </ul>
+    </div>
+
+
+    <div style="text-align: left; padding-left: 50px; font-size: 1.1rem">
+        <p>Le modèle présent ci-dessous est issu des travaux de Raphaël Yharrassary, pubié sur <a href="http://iergo.fr" target="_blank"/>iergo.fr"</a></p>
+
+        <h2>Définition des têtes de chapitre</h2>
+
+
+        <p><a class="Row1" href="#Row1">Analyse métier</a> : les enjeux business soit liée au marketing pour un produit, soit liée au contexte métier.</p>
+
+        <p><a class="Row2" href="#Row2">Ergonomie</a> : les aspects liés au facteur humain et à la psychologie.</p>
+
+        <p><a class="Row3" href="#Row3">UX</a> : le cœur des méthodologies lié à l’expérience utilisateur.</p>
+
+        <p><a class="Row4" href="#Row4">Contenu</a> : les compétences autour de création des contenus, aussi bien les textes, les images et tous les types de contenus. Raphaël a quelques doutes sur les compétences requises derrière certains termes.</p>
+
+        <p><a class="Row5" href="#Row5">Architecture de l’information</a> : ces compétences sont nécessaires pour structurer l’information du service.</p>
+
+        <p><a class="Row6" href="#Row6">Conception de l’interaction</a> : ces compétences portent sur la conception l’Interface Humain Machine et les interactions possibles.</p>
+
+        <p><a class="Row7" href="#Row7">Conception visuelle</a> : ces compétences portent sur les composants visibles de l’expérience supportant des aspects de communications, d’esthétismes et hédonismes.</p>
+
+        <p><a class="Row8" href="#Row8">Technique</a> : les compétences techniques</p>
+
+        <p><a class="Row9" href="#Row9">Communication douce</a> : les compétences nécessaires pour travailler en étant à l’écoute des autres et pour partager les travaux effectués.</p>
+
+
+    </div>
+</div>
+
+
+<form id="checklist-form" method="POST">
+    <div class="row clearfix nomobile">
+        <div id="Row0" class="title"><span>Domaine d'intérêt</span></div>
+        <div class="cards competence">
+            <div class="card-content left">
+                <label class="" >Technique +</label>
+                <p><strong>Domaine le plus concret</strong></p>
+                <p>Les produits livrables les plus tangibles. Le travail dans ce domaine d'intérêt est habituellement le plus facile à effectuer,</p>
+            </div>
+        </div>
+        <div class="cards competence">
+            <div class="card-content left">
+                <label class="" >Technique ++ </label>
+                <p></p>
+            </div>
+        </div>
+        <div class="cards competence">
+            <div class="card-content left">
+                <label class="" >Technique +++</label>
+                <p></p>
+            </div>
+        </div>
+        <div class="cards competence">
+            <div class="card-content left">
+                <label class="" >Stratégique +</label>
+                <p> </p>
+            </div>
+        </div>
+        <div class="cards competence">
+            <div class="card-content left">
+                <label class="" >Stratégique ++</label>
+                <p> </p>
+            </div>
+        </div>
+        <div class="cards competence">
+            <div class="card-content left">
+                <label class="" >Stratégique +++</label>
+                <p><strong>Domaine d'intérêt le plus abstrait</strong></p>
+                <p>Le domaine d'intérêt le moins tangible d'une pratique </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row clearfix">
+        <div id="Row1" class="title"><img class="left" src="img/icons/row1.png"><span>Analyse Métier</span></div>
+        <div class="cards competence">
+            <div class="img">
+                <img class="left" src="img/icons/row1.png">
+            </div>
+            <div class="card-content left">
+                <label class="Research" for="checkbox1">Cartographie contextuelle</label>
+                <p>méthodologies de benchmark ou du type SWOT si on parle de produit, ou dans un cadre métier je parlerai de positionnement par rapport à des bonnes pratiques ou des normes.</p>
+            </div>
+            <div class="right">
+                <input id="checkbox1" type="checkbox">
+            </div>
+        </div>
+        <div class="cards competence">
+            <div class="img">
+                <img class="left" src="img/icons/row1.png">
+            </div>
+            <div class="card-content left">
+                <label class="Research" for="checkbox2">Mesure de la performance</label>
+                <p>En un mot « KPI » et autres indicateurs de performances, mais aussi taux d’erreurs, facilité d’apprentissage.</p>
+            </div>
+            <div class="right">
+                <input id="checkbox2" type="checkbox">
+            </div>
+        </div>
+        <div class="cards competence">
+            <div class="img">
+                <img class="left" src="img/icons/row1.png">
+            </div>
+            <div class="card-content left">
+                <label class="Research" for="checkbox3">Définition du produit/service</label>
+                <p></p>
+                <p>Définition d’un point de vue large des fonctions, ou des règles métiers, pour définir le produit./p>
+            </div>
+            <div class="right">
+                <input id="checkbox3" type="checkbox">
+            </div>
+        </div>
+        <div class="cards competence">
+            <div class="img">
+                <img class="left" src="img/icons/row1.png">
+            </div>
+            <div class="card-content left">
+                <label class="Research" for="checkbox1">Objectif Business / métier</label>
+                <p>Objectif de vente, d’abonnement et d’autre aspect commerciaux, mais aussi des objectifs métiers : qualité, nombre de dossiers traités. </p>
+            </div>
+            <div class="right">
+                <input id="checkbox4" type="checkbox">
+            </div>
+        </div>
+        <div class="cards competence">
+            <div class="img">
+                <img class="left" src="img/icons/row1.png">
+            </div>
+            <div class="card-content left">
+                <label class="Research" for="checkbox2">Mission/Vision</label>
+                <p>Vision à court et à long terme sur le produit ou le métier. </p>
+            </div>
+            <div class="right">
+                <input id="checkbox5" type="checkbox">
+            </div>
+        </div>
+        <div class="cards competence">
+            <div class="img">
+                <img class="left" src="img/icons/row1.png">
+            </div>
+            <div class="card-content left">
+                <label class="Research" for="checkbox3">Business model</label>
+                <p></p>
+                <p>Savoir établir le modèle d’affaire marketing ou lié au métier. </p>
+            </div>
+            <div class="right">
+                <input id="checkbox6" type="checkbox">
+            </div>
+        </div>
+    </div>
+
+    <div class="row clearfix">
+        <div id="Row2" class="title"><img class="left" src="img/icons/row2.png"><span>Ergonomie</span></div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left" src="img/icons/row2.png">
+            </div>
+            <div class="card-content left">
+                <label class="Plan" for="checkbox4">État de l’art</label>
+                <p>Les sujets abordés en UX et plus globalement liés au facteur humain, sont étudiés, souvent par des scientifiques ou d’autres professionnelles. Faire l’état de l’art permet d’éviter de faire des choses déjà connues.</p>
+            </div>
+            <div class="right">
+                <input id="checkbox7" type="checkbox">
+            </div>
+        </div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left" src="img/icons/row2.png">
+            </div>
+            <div class="card-content left">
+                <label class="Plan" for="checkbox5">Analyse des usages, de l’activité</label>
+                <p>La connaissance des usages des utilisateurs et de l’activité réelle est la base. Pour cela il est nécessaire d’analyser les usages existants ou d’observer les gens travailler.</p>
+            </div>
+            <div class="right">
+                <input id="checkbox8" type="checkbox">
+            </div>
+        </div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left" src="img/icons/row2.png">
+            </div>
+            <div class="card-content left">
+                <label class="Plan" for="checkbox6">Tests, audit et autres méthodes de mesures</label>
+                <p>Les méthodologies de mesures avec ou sans les utilisateurs sont nombreuses pour évaluer l’existant.</p>
+            </div>
+            <div class="right">
+                <input id="checkbox9" type="checkbox">
+            </div>
+        </div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left" src="img/icons/row2.png">
+            </div>
+            <div class="card-content left">
+                <label class="Plan" for="checkbox6">Analyse des données/Statistiques</label>
+                <p>Analyser les données liées aux usages, aux tests, aux études,… De manières plus globales des connaissances en statistiques appliquées aux sciences humaines.</p>
+            </div>
+            <div class="right">
+                <input id="checkbox10" type="checkbox">
+            </div>
+        </div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left" src="img/icons/row2.png">
+            </div>
+            <div class="card-content left">
+                <label class="Plan" for="checkbox6">Expérimentation, conduite d’étude</label>
+                <p>Il est parfois nécessaire de répondre à des questions précises. Pour cela, il faut conduire des études ou mettre en place une situation expérimentale.</p>
+            </div>
+            <div class="right">
+                <input id="checkbox11" type="checkbox">
+            </div>
+        </div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left" src="img/icons/row2.png">
+            </div>
+            <div class="card-content left">
+                <label class="Plan" for="checkbox6">Facteur humain et psychologie cognitive</label>
+                <p>La connaissance du facteur humain, la psychologie notamment cognitive sont la base pour comprendre les utilisateurs.</p>
+            </div>
+            <div class="right">
+                <input id="checkbox12" type="checkbox">
+            </div>
+        </div>
+    </div>
+
+    <div class="row clearfix">
+        <div id="Row3" class="title"><img class="left" src="img/icons/row3.png"><span>UX</span></div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left" src="img/icons/row3.png">
+            </div>
+            <div class="card-content left">
+                <label class="Explore" for="checkbox7">Brief UX</label>
+                <p>Conception et rédaction d’un Brief UX, planification des étapes de conception afin d’atteindre les objectifs du projet.</p>
+            </div>
+            <div class="right">
+                <input id="checkbox13" type="checkbox">
+            </div>
+        </div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left" src="img/icons/row3.png">
+            </div>
+            <div class="card-content left">
+                <label class="Explore" for="checkbox8">Recherche Utilisateur</label>
+                <p>La recherche utilisateur abouti à la réalisation de livrables comme les persona, les expériences maps.</p>
+            </div>
+            <div class="right">
+                <input id="checkbox14" type="checkbox">
+            </div>
+        </div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left" src="img/icons/row3.png">
+            </div>
+            <div class="card-content left">
+                <label class="Explore" for="checkbox9">Définition de la promesse</label>
+                <p>Préciser les objectifs en termes d’expérience à travers les différents aspects de l’interaction, de la conception visuelle et du contenu.</p>
+            </div>
+            <div class="right">
+                <input id="checkbox15" type="checkbox">
+            </div>
+        </div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left" src="img/icons/row3.png">
+            </div>
+            <div class="card-content left">
+                <label class="Explore" for="checkbox9">Management de la conception UX</label>
+                <p>Planifier et organiser les différentes étapes de conception UX afin d’atteindre de manière efficiente les solutions envisagées.</p>
+            </div>
+            <div class="right">
+                <input id="checkbox16" type="checkbox">
+            </div>
+        </div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left" src="img/icons/row3.png">
+            </div>
+            <div class="card-content left">
+                <label class="Explore" for="checkbox9">Stratégie UX</label>
+                <p>Planifier la stratégie sur les différents canaux afin d’avoir une expérience fluide.</p>
+            </div>
+            <div class="right">
+                <input id="checkbox17" type="checkbox">
+            </div>
+        </div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left" src="img/icons/row3.png">
+            </div>
+            <div class="card-content left">
+                <label class="Explore" for="checkbox9">Recherche</label>
+                <p>Analyse du contexte du client par rapport au marché, aux recherches utilisateurs, à l’état de l’industrie pour influencer globalement la stratégie de l’UX.</p>
+            </div>
+            <div class="right">
+                <input id="checkbox18" type="checkbox">
+            </div>
+        </div>
+    </div>
+
+    <div class="row clearfix">
+        <div id="Row4" class="title"><img class="left" src="img/icons/row4.png"><span>Contenu</span></div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left" src="img/icons/row4.png">
+            </div>
+            <div class="card-content left">
+                <label class="Communicate" for="checkbox10">Définitions des contenus</label>
+                <p>Définir les contenus dont on a besoin pour produire le service.</p>
+            </div>
+            <div class="right">
+                <input id="checkbox19" type="checkbox">
+            </div>
+        </div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left"  src="img/icons/row4.png">
+            </div>
+            <div class="card-content left">
+                <label class="Communicate" for="checkbox11">Production des contenus</label>
+                <p>Produire ou faire produire ces contenus.</p>
+            </div>
+            <div class="right">
+                <input id="checkbox20" type="checkbox">
+            </div>
+        </div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left"  src="img/icons/row4.png">
+            </div>
+            <div class="card-content left">
+                <label class="Communicate" for="checkbox12">Charte rédactionnelle</label>
+                <p>L’établissement de règles, les processus et les choix qui influent sur le cycle de vie et la gestion de contenu.</p>
+
+            </div>
+            <div class="right">
+                <input id="checkbox21" type="checkbox">
+            </div>
+        </div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left"  src="img/icons/row4.png">
+            </div>
+            <div class="card-content left">
+                <label class="Communicate" for="checkbox12">Gestion des contenus</label>
+                <p>Permet de mettre en application la charte rédactionnelle et d’assurer son respect.</p>
+
+            </div>
+            <div class="right">
+                <input id="checkbox22" type="checkbox">
+            </div>
+        </div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left"  src="img/icons/row4.png">
+            </div>
+            <div class="card-content left">
+                <label class="Communicate" for="checkbox12">Stratégie de contenus</label>
+                <p>Planifier la création, livrer et adapter les contenus aux cibles et à la stratégie globale.</p>
+
+            </div>
+            <div class="right">
+                <input id="checkbox23" type="checkbox">
+            </div>
+        </div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left"  src="img/icons/row4.png">
+            </div>
+            <div class="card-content left">
+                <label class="Communicate" for="checkbox12">Recherches / analyse des données</label>
+                <p>Planifier l’analyse des indicateurs de performances pour avoir des informations sur les usages des contenus mais une recherche prospective sur les tendances me paraît plus approprié.</p>
+
+            </div>
+            <div class="right">
+                <input id="checkbox24" type="checkbox">
+            </div>
+        </div>
+    </div>
+
+    <div class="row clearfix">
+        <div id="Row5" class="title"><img class="left" src="img/icons/row5.png"><span>Architecture de l’information</span></div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left" src="img/icons/row5.png">
+            </div>
+            <div class="card-content left">
+                <label class="Create" for="checkbox13">Navigation</label>
+                <p>Conception de la navigation en fonction du support.</p>
+            </div>
+            <div class="right">
+                <input id="checkbox25" type="checkbox">
+            </div>
+        </div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left" src="img/icons/row5.png">
+            </div>
+            <div class="card-content left">
+                <label class="Create" for="checkbox14">Classification de l’information</label>
+                <p>Organiser l’information avec des méthodologies comme le tri par cartes.</p>
+            </div>
+            <div class="right">
+                <input id="checkbox26" type="checkbox">
+            </div>
+        </div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left" src="img/icons/row5.png">
+            </div>
+            <div class="card-content left">
+                <label class="Create" for="checkbox15">Association information / contenu</label>
+                <p>Permettre aux utilisateurs de faire le lien entre arborescence et contenus.</p>
+            </div>
+            <div class="right">
+                <input id="checkbox15" type="checkbox">
+            </div>
+        </div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left" src="img/icons/row5.png">
+            </div>
+            <div class="card-content left">
+                <label class="Create" for="checkbox15">Gestion de l’architecture de l’information</label>
+                <p>L’évolution de l’architecture nécessite de la prévoir et d’assurer son évolution.</p>
+            </div>
+            <div class="right">
+                <input id="checkbox27" type="checkbox">
+            </div>
+        </div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left" src="img/icons/row5.png">
+            </div>
+            <div class="card-content left">
+                <label class="Create" for="checkbox15">Stratégie de l’architecture de l’information</label>
+                <p>Planifier l’architecture de l’information pour la rendre durable et cohérente entre les différents domaines.</p>
+            </div>
+            <div class="right">
+                <input id="checkbox28" type="checkbox">
+            </div>
+        </div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left" src="img/icons/row5.png">
+            </div>
+            <div class="card-content left">
+                <label class="Create" for="checkbox15">Recherche et analyse des données</label>
+                <p>Planifier l’analyse des indicateurs de performances pour avoir des informations sur l’AI et les utiliser.</p>
+            </div>
+            <div class="right">
+                <input id="checkbox29" type="checkbox">
+            </div>
+        </div>
+    </div>
+
+    <div class="row clearfix">
+        <div id="Row6" class="title"><img class="left" src="img/icons/row6.png"><span>Conception de l’interaction</span></div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left" src="img/icons/row6.png">
+            </div>
+            <div class="card-content left">
+                <label class="Feedbacks" for="checkbox16">Wireframe</label>
+                <p>Réalisation des écrans de manière schématique, avec l’ensemble des composants de l’interaction.</p>
+            </div>
+            <div class="right">
+                <input id="checkbox30" type="checkbox">
+            </div>
+        </div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left" src="img/icons/row6.png">
+            </div>
+            <div class="card-content left">
+                <label class="Feedbacks" for="checkbox17">Interactions</label>
+                <p>Concevoir les interactions entre l’interface et les utilisateurs sur l’ensemble des supports.</p>
+            </div>
+            <div class="right">
+                <input id="checkbox31" type="checkbox">
+            </div>
+        </div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left" src="img/icons/row6.png">
+            </div>
+            <div class="card-content left">
+                <label class="Feedbacks" for="checkbox18">Modèles</label>
+                <p>Concevoir des éléments réutilisables, ainsi que leurs comportements et les métadonnées</p>
+            </div>
+            <div class="right">
+                <input id="checkbox18" type="checkbox">
+            </div>
+        </div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left" src="img/icons/row6.png">
+            </div>
+            <div class="card-content left">
+                <label class="Feedbacks" for="checkbox18">Guidelines de l’interface utilisateur</label>
+                <p>La conception d’une interface nécessite de suivre des guidelines qu’il faut connaître. Les guidelines sont nombreux, certains se recoupent, mais peuvent aussi être sous-spécialisé.</p>
+            </div>
+            <div class="right">
+                <input id="checkbox32" type="checkbox">
+            </div>
+        </div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left" src="img/icons/row6.png">
+            </div>
+            <div class="card-content left">
+                <label class="Feedbacks" for="checkbox18">Stratégie support et multi-support</label>
+                <p>Planifier la conception et la répartition sur les différents supports afin d’offrir une interaction adaptée à chaque support.</p>
+            </div>
+            <div class="right">
+                <input id="checkbox13" type="checkbox">
+            </div>
+        </div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left" src="img/icons/row6.png">
+            </div>
+            <div class="card-content left">
+                <label class="Feedbacks" for="checkbox18">Conception de guidelines</label>
+                <p>Concevoir les guidelines nécessaire pour les nouveaux supports (TV, Objets connectés, …)</p>
+            </div>
+            <div class="right">
+                <input id="checkbox34" type="checkbox">
+            </div>
+        </div>
+    </div>
+
+    <div class="row clearfix">
+        <div id="Row7" class="title"><img class="left" src="img/icons/row7.png"><span>Conception visuelle</span></div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left" src="img/icons/row7.png">
+            </div>
+            <div class="card-content left">
+                <label class="Finalise" for="checkbox19">Graphisme</label>
+                <p>Réalisation des éléments graphiques.</p>
+            </div>
+            <div class="right">
+                <input id="checkbox33" type="checkbox">
+            </div>
+        </div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left" src="img/icons/row7.png">
+            </div>
+            <div class="card-content left">
+                <label class="Finalise" for="checkbox20">Mise en page</label>
+                <p>Organisation spatiale et hiérarchisation de l’information facilitant la perception du contenu.</p>
+            </div>
+            <div class="right">
+                <input id="checkbox35" type="checkbox">
+            </div>
+        </div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left" src="img/icons/row7.png">
+            </div>
+            <div class="card-content left">
+                <label class="Finalise" for="checkbox21">Charte graphique</label>
+                <p>Charte apportant une cohérence graphique lors de l’exécution de la conception visuelle.</p>
+            </div>
+            <div class="right">
+                <input id="checkbox36" type="checkbox">
+            </div>
+        </div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left" src="img/icons/row7.png">
+            </div>
+            <div class="card-content left">
+                <label class="Finalise" for="checkbox21">Direction artistique</label>
+                <p>Supervision de la réalisation de la stratégie visuelle.</p>
+            </div>
+            <div class="right">
+                <input id="checkbox37" type="checkbox">
+            </div>
+        </div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left" src="img/icons/row7.png">
+            </div>
+            <div class="card-content left">
+                <label class="Finalise" for="checkbox21">Stratégie de création</label>
+                <p>Conception de la stratégie créative sur un ou plusieurs projets.</p>
+            </div>
+            <div class="right">
+                <input id="checkbox38" type="checkbox">
+            </div>
+        </div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left" src="img/icons/row7.png">
+            </div>
+            <div class="card-content left">
+                <label class="Finalise" for="checkbox21">Recherches / Analyse des données</label>
+                <p>Planifier l’analyse des indicateurs de performances pour avoir des informations sur la conception visuelle et les utiliser.</p>
+            </div>
+            <div class="right">
+                <input id="checkbox39" type="checkbox">
+            </div>
+        </div>
+    </div>
+
+    <div class="row clearfix">
+        <div id="Row8" class="title"><img class="left" src="img/icons/row8.png"><span>Technique</span></div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left" src="img/icons/row8.png">
+            </div>
+            <div class="card-content left">
+                <label class="Delight" for="checkbox22">Programmation Front-end</label>
+                <p>Réalisation de l’interface utilisateur (HTML, CSS, XCode,…)</p>
+            </div>
+            <div class="right">
+                <input id="checkbox40" type="checkbox">
+            </div>
+        </div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left"  src="img/icons/row8.png">
+            </div>
+            <div class="card-content left">
+                <label class="Delight" for="checkbox23">Qualité Web</label>
+                <p>Produire des interfaces de qualités respectant les normes, notamment en matière d’accessibilités.</p>
+            </div>
+            <div class="right">
+                <input id="checkbox41" type="checkbox">
+            </div>
+        </div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left"  src="img/icons/row8.png">
+            </div>
+            <div class="card-content left">
+                <label class="Delight" for="checkbox24">Conception de base de données</label>
+                <p>Modélisation de l’environnement sous forme de tables relationnelles permettant d’organiser et d’accéder aux informations.</p>
+            </div>
+            <div class="right">
+                <input id="checkbox24" type="checkbox">
+            </div>
+        </div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left"  src="img/icons/row8.png">
+            </div>
+            <div class="card-content left">
+                <label class="Delight" for="checkbox24">Programmation serveur</label>
+                <p>Développement des scripts et des routines qui s’exécutent coté serveur.</p>
+            </div>
+            <div class="right">
+                <input id="checkbox42" type="checkbox">
+            </div>
+        </div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left"  src="img/icons/row8.png">
+            </div>
+            <div class="card-content left">
+                <label class="Delight" for="checkbox24">Infrastructure</label>
+                <p>Mise en place des moyens techniques et matériels.</p>
+            </div>
+            <div class="right">
+                <input id="checkbox43" type="checkbox">
+            </div>
+        </div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left"  src="img/icons/row8.png">
+            </div>
+            <div class="card-content left">
+                <label class="Delight" for="checkbox24">Architecture système</label>
+                <p>Le logiciel, la planification et la conception de cadres technologiques évolutive et flexible qui prennent en charge les besoins et les comportements des utilisateurs du système d’information.</p>
+            </div>
+            <div class="right">
+                <input id="checkbox44" type="checkbox">
+            </div>
+        </div>
+    </div>
+
+    <div class="row clearfix">
+        <div id="Row9" class="title"><img class="left"  src="img/icons/row9.png"><span>Communication douce</span></div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left"  src="img/icons/row9.png">
+            </div>
+            <div class="card-content left">
+                <label class="Analyse" for="checkbox49">Qualité des livrables</label>
+                <p>Les livrables sont des éléments clefs des projets. La qualité et la lisibilité de ceux-ci sont essentielles pour transmettre les résultats des travaux.</p>
+            </div>
+            <div class="right">
+                <input id="checkbox49" type="checkbox">
+            </div>
+        </div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left" src="img/icons/row9.png">
+            </div>
+            <div class="card-content left">
+                <label class="Analyse" for="checkbox50">Présentation orale</label>
+                <p>La communication orale est une compétence importante pour présenter ses résultats et partager l’UX</p>
+            </div>
+            <div class="right">
+                <input id="checkbox50" type="checkbox">
+            </div>
+        </div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left" src="img/icons/row9.png">
+            </div>
+            <div class="card-content left">
+                <label class="Analyse" for="checkbox51">Travail en équipe</label>
+                <p>Savoir travailler en équipe permet de s’appuyer sur les compétences des autres pour produire une UX de qualité</p>
+            </div>
+            <div class="right">
+                <input id="checkbox51" type="checkbox">
+            </div>
+        </div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left" src="img/icons/row9.png">
+            </div>
+            <div class="card-content left">
+                <label class="Analyse" for="checkbox52">Ecoute</label>
+                <p>Écoute active, neutre et bienveillante. : Savoir écouter, interroger, observer, échanger sans prendre parti ni juger.</p>
+            </div>
+            <div class="right">
+                <input id="checkbox52" type="checkbox">
+            </div>
+        </div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left" src="img/icons/row9.png">
+            </div>
+            <div class="card-content left">
+                <label class="Analyse" for="checkbox53">Facilitateur</label>
+                <p>Le rôle de facilitateur permet de gérer des groupes de travail et de faire émerger des idées.</p>
+            </div>
+            <div class="right">
+                <input id="checkbox53" type="checkbox">
+            </div>
+        </div>
+        <div class="cards clearfix competence">
+            <div class="img">
+                <img class="left" src="img/icons/row9.png">
+            </div>
+            <div class="card-content left">
+                <label class="Analyse" for="checkbox54">Formateur</label>
+                <p>Former les autres, transmettre ces connaissances, faire évoluer les pratiques et les savoir-faire
+                </p>
+            </div>
+            <div class="right">
+                <input id="checkbox54" type="checkbox">
+            </div>
+        </div>
+    </div>
+</form>
+
+
+<div id="footer" class="">
+
+    <div id="toolbar" class="hide-for-print">
+        <button id="print" onclick="window.print();" type="button"><i class="fa fa-print"></i>Imprimer</button>
+        <button id="reset"><i class="fa fa-refresh"></i>R-à-z</button>
+    </div>
+
+    <div id="credits">source&nbsp;<a href="https://blocnotes.iergo.fr/articles/competences-ux-et-modele-en-t/" target="_blank" title="Raphaël">Raphaël</a> adaptation (rapide) Franck.
+    </div>
+
+    <div id="friends" class="white-popup mfp-hide">
+
+        <p>
+            Also thanks to:</br>
+            <a href="http://fntneves.github.io/jquery-labelauty/" target="_blank" title="Labelauty">Labelauty</a> for the checkbox beautifier.</br>
+            <a href="http://fortawesome.github.io/Font-Awesome/" target="_blank" title="Font Awesome">Font Awesome</a> for the iconic font.</br>
+        </p>
+    </div>
+</div>
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!-- <script src="js/vendor/jquery.js"></script> -->
+<script>
+    window.Modernizr || document.write('<script type="text/javascript" src="js/vendor/modernizr.js">\x3C/script>');
+    window.jQuery || document.write('<script type="text/javascript" src="js/vendor/jquery.js">\x3C/script>');
+</script>
+
+<script src="js/garlic.js"></script>
+<script src="js/jquery-labelauty.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $(":checkbox").labelauty({label: false});
+        $("#checklist-form").garlic();
+
+        $("#reset").on('click', function () {
+            $('input:checkbox').each(function () {
+                $(this).prop('checked', false);
+            });
+            $("#checklist-form").garlic('destroy');
+        });
+        $("#footer a").on('click', function (e) {
+            var elm = e.currentTarget;
+            ga('send', 'event', 'footer', $(elm).attr('title'));
+        });
+        $("input:checkbox").on('change', function (e) {
+            var cb = $(this);
+            var id = cb.attr('id');
+            var isChecked = cb.is(':checked');
+            ga('send', 'event', {
+                'eventCategory': 'checkbox',
+                'eventAction': isChecked ? 'set' : 'clear',
+                'eventLabel': id
+            });
+        });
+
+        $('.open-popup-link').magnificPopup({
+            type: 'inline',
+            midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+        });
+    });
+
+    //realtime api
+    var checkboxes = {};
+    var view = null;
+    var controller = null;
+
+    $().ready(function () {
+        var isFn = function (id, e) {
+            return $(e).is(':checked');
+        };
+        var setFn = function (id, e, val) {
+            $(e).prop('checked', val);
+            $(e).garlic('persist');
+        };
+        $('input:checkbox').each(function () {
+            var id = $(this).attr('id');
+            checkboxes[id] = new Realtime.Model.CheckBox(id, this, isFn, setFn);
+        });
+        view = new Realtime.View(checkboxes);
+        var cb = view.checkboxes;
+        console.log(cb);
+        controller = new Realtime.Controller(view);
+
+        gapi.load("auth:client,drive-realtime,drive-share", function () {
+            controller.init();
+            $('form').on('change', 'input:checkbox', function (ev) {
+                console.log(ev);
+                controller.onCheckBoxChange($(ev.target).attr('id'));
+            });
+
+            var signinSuccess = function () {
+                $('#signin-do').hide();
+                $('#signin-fail').hide();
+                $('#signin-success').show();
+                $("#reset").on('click', function () {
+                    controller.save();
+                });
+            };
+
+            var signinFailed = function () {
+                $('#signin-fail').show();
+            };
+
+            controller.auth(true,
+                signinSuccess,
+                function () {
+                    $('#signin-do').show();
+                }
+            );
+
+            $('#signin').on('click', function () {
+                controller.auth(false, signinSuccess, signinFailed);
+            });
+        });
+    });
+</script>
+<script type="text/javascript" src="https://apis.google.com/js/api.js"></script>
+<script type="text/javascript" src="js/realtime.js"></script>
+</body>
+</html>
